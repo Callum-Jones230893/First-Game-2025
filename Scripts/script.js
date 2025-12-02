@@ -135,7 +135,7 @@
       } else if (turnOptionInput === "attack") {
         bossHp = bossHp - characterAttackDamage;
         bossHp = Math.max(bossHp, 0);
-        switch (character) {
+        switch (character.toLowerCase()) {
         case "warrior":
           alert(`You swing your heavy blade at the ${bossName}, and dealt ${characterAttackDamage}! It has ${bossHp}`)
           break;
