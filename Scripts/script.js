@@ -68,7 +68,7 @@
     }
   }
 
-  switch (character) { //change text and change to for loop
+  switch (character.toLowerCase()) { //change text and change to for loop
     case "warrior": 
       alert (`As the stoic ${character} passes through a dense forest, he hears the roar of the diabolical being known as the ${bossName}`)
       break;
